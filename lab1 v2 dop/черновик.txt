@@ -1,0 +1,28 @@
+            a.Jump(90);
+
+
+
+    public int jump;
+int jump
+        this.jump = jump;
+
+    public void Jump(int dist) {
+
+
+        if (this.jump <= dist) {
+            if (this.jump == 0) {
+                System.out.print(this.Type + " " + this.Name + " не умеет прыгать");
+                System.out.println("\r");
+            }
+            else {System.out.print(this.Type + " " + this.Name + " не смог прыгнуть");}
+        } else {
+            System.out.print(this.Type + " " + this.Name + " смог прыгнуть: " + dist);
+        }
+        System.out.println("\n");
+
+    }
+
+
+
+int jump
+
